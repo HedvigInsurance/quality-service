@@ -4,7 +4,7 @@ import com.hedvig.qualityservice.entities.TrackedGithubRepository;
 import com.hedvig.qualityservice.repositories.TrackedGithubRepositoryRepository;
 import com.hedvig.qualityservice.services.github.GithubClient;
 import com.hedvig.qualityservice.services.github.dtos.GithubApiRepositoryDto;
-import com.hedvig.qualityservice.web.CreateTrackedGithubRepositoryDto;
+import com.hedvig.qualityservice.web.dtos.CreateTrackedGithubRepositoryDto;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

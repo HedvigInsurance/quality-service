@@ -1,4 +1,4 @@
-package com.hedvig.qualityservice.web;
+package com.hedvig.qualityservice.web.dtos;
 
 public class CreateTrackedGithubRepositoryDto {
     private String owner;

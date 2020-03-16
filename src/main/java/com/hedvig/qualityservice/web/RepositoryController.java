@@ -2,6 +2,8 @@ package com.hedvig.qualityservice.web;
 
 import com.hedvig.qualityservice.entities.TrackedGithubRepository;
 import com.hedvig.qualityservice.services.TrackedGithubRepositoryService;
+import com.hedvig.qualityservice.web.dtos.CreateTrackedGithubRepositoryDto;
+import com.hedvig.qualityservice.web.dtos.TrackedGithubRepositoryDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
