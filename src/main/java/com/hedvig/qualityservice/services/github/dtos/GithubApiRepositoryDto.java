@@ -30,7 +30,7 @@ public class GithubApiRepositoryDto {
 
     @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public class Owner {
+    public static class Owner {
         private Long id;
         private String login;
 
