@@ -1,4 +1,4 @@
-package com.hedvig.qualityservice.configuration;
+package com.hedvig.qualityservice.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
